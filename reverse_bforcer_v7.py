@@ -29,6 +29,7 @@ p_5 = ["U"]
 p_6 = ["x"] 
 
 #<A> double (paper clue)
+# there is a possibility this clue laps over into another field resulting in A% here, ubuntu as an a, and mirror as an a
 p_7 = ["A"] 
 
 #<%> ubuntu new install
