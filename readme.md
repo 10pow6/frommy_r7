@@ -1,1 +1,1 @@
-Sovling riddles since... well... forever... except this one apparently.
+Solving riddles since... well... forever... except this one apparently.
