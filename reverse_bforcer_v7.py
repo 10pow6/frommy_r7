@@ -52,6 +52,7 @@ result = list(itertools.product(*a))
 print( "Total Possible Combos: ", len(result) )
 
 f = open("exclusions.txt", "r+")
+q = open("investigate_manually.txt", "r+")
 
 exclusions = f.read().splitlines() 
 #print(exclusions)
@@ -100,6 +101,8 @@ for count,url_id in enumerate(result):
             else:
                 line = line + ",UNEXPECTED"
                 print(line)
+                q.write(line)
+                q.write("\n")
         except KeyboardInterrupt:
             print("Broke @ ", parsed)
             break
@@ -112,5 +115,5 @@ for count,url_id in enumerate(result):
         line = str(count) + "," + parsed + "," + new_url + ",N/A,SKIPPED"
         print(line)
 
-
+q.close()
 f.close()
