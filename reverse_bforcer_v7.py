@@ -10,6 +10,7 @@ base_url="https://forms.gle/"
 #########################################################
 ##### Confirmed assumption that the legend is accurate
 #########################################################
+'''
 #<aa> also q known q as q tzdata, p the p zone info q database q or p IANA q time q zone p database
 p_1 = ["tz","zt"] #high confidence
 
@@ -43,7 +44,41 @@ p_10 = ["LIHI","LHBR"]
 
 #<%> eyeglasses
 p_11 = ["0","2","8"] #high confidence
+'''
+#<aa> also q known q as q tzdata, p the p zone info q database q or p IANA q time q zone p database  {timezone database}
+p_1 = ["tz"] #high confidence
 
+#<%%> Earth Three
+p_2 = ["00","01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68","69","70","71","72","73","74","75","76","77","78","79","80","81","82","83","84","85","86","87","88","89","90","91","92","93","94","95","96","97","98","99"]
+
+#<A> w, Shane is reading {w upside down is M; reference to meme of Australia being upside down}
+p_3 = ["M"]  #high confidence
+
+#<%> Piano {8 in an octave, regardless if keyboard, guitar, or flute}
+p_4 = ["8"]  #high confidence
+
+#<A> Girl Pointing to You {Thomas probably searched 'woman pointing at you'}
+p_5 = ["U"] #high confidence
+
+#<a> Treasure Map with x
+p_6 = ["x"] #high confidence {x marks the spot}
+
+#<A%> Paper sizes
+# there is a possibility this clue laps over into another field resulting in A% here, ubuntu as an a, and mirror as an a
+p_7 = ["A3","A4","A5","A7"] 
+
+#<a> ubuntu new install
+p_8 = ["y"] 
+
+#<a> d mirror 
+# either d or b -- mirroring of the letter
+p_9 = ["d","b"] #high confidence
+
+#<AAAA> Later I will go to the Hotel and I will bring rubies. {capital letters??}
+p_10 = ["LHBR"] 
+
+#<%> eyeglasses {they look like an 8}
+p_11 = ["8"] #high confidence
 
 
 a = [ p_1, p_2, p_3, p_4, p_5, p_6, p_7, p_8, p_9, p_10, p_11 ]
