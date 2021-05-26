@@ -65,7 +65,7 @@ p_6 = ["x"] #high confidence {x marks the spot}
 
 #<A%> Paper sizes
 # there is a possibility this clue laps over into another field resulting in A% here, ubuntu as an a, and mirror as an a
-p_7 = ["A3","A4","A5","A7"] 
+p_7 = ["A2","A3","A4","A5","A7"] 
 
 #<a> ubuntu new install
 p_8 = ["y"] 
@@ -75,10 +75,10 @@ p_8 = ["y"]
 p_9 = ["d","b"] #high confidence
 
 #<AAAA> Later I will go to the Hotel and I will bring rubies. {capital letters??}
-p_10 = ["LHBR"] 
+p_10 = ["LIHI"] 
 
 #<%> eyeglasses {they look like an 8}
-p_11 = ["8"] #high confidence
+p_11 = ["0","8"] #high confidence
 
 
 a = [ p_1, p_2, p_3, p_4, p_5, p_6, p_7, p_8, p_9, p_10, p_11 ]
